@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0592A92E1B5573B200FEC5B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0592A92D1B5573B200FEC5B1 /* AppDelegate.swift */; };
+		0592A9301B5573B200FEC5B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0592A92F1B5573B200FEC5B1 /* ViewController.swift */; };
+		0592A9321B5573B200FEC5B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0592A9311B5573B200FEC5B1 /* Assets.xcassets */; };
+		0592A9351B5573B200FEC5B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0592A9331B5573B200FEC5B1 /* Main.storyboard */; };
+		0592A9401B5573B200FEC5B1 /* Fallout_HackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0592A93F1B5573B200FEC5B1 /* Fallout_HackerTests.swift */; };
+		0592A94B1B5573B200FEC5B1 /* Fallout_HackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0592A94A1B5573B200FEC5B1 /* Fallout_HackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0592A93C1B5573B200FEC5B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0592A9221B5573B200FEC5B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0592A9291B5573B200FEC5B1;
+			remoteInfo = Fallout_Hacker;
+		};
+		0592A9471B5573B200FEC5B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0592A9221B5573B200FEC5B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0592A9291B5573B200FEC5B1;
+			remoteInfo = Fallout_Hacker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0592A92A1B5573B200FEC5B1 /* Fallout_Hacker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fallout_Hacker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0592A92D1B5573B200FEC5B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0592A92F1B5573B200FEC5B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0592A9311B5573B200FEC5B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0592A9341B5573B200FEC5B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0592A9361B5573B200FEC5B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0592A93B1B5573B200FEC5B1 /* Fallout_HackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fallout_HackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0592A93F1B5573B200FEC5B1 /* Fallout_HackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fallout_HackerTests.swift; sourceTree = "<group>"; };
+		0592A9411B5573B200FEC5B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0592A9461B5573B200FEC5B1 /* Fallout_HackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fallout_HackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0592A94A1B5573B200FEC5B1 /* Fallout_HackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fallout_HackerUITests.swift; sourceTree = "<group>"; };
+		0592A94C1B5573B200FEC5B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0592A9271B5573B200FEC5B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0592A9381B5573B200FEC5B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0592A9431B5573B200FEC5B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0592A9211B5573B200FEC5B1 = {
+			isa = PBXGroup;
+			children = (
+				0592A92C1B5573B200FEC5B1 /* Fallout_Hacker */,
+				0592A93E1B5573B200FEC5B1 /* Fallout_HackerTests */,
+				0592A9491B5573B200FEC5B1 /* Fallout_HackerUITests */,
+				0592A92B1B5573B200FEC5B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0592A92B1B5573B200FEC5B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0592A92A1B5573B200FEC5B1 /* Fallout_Hacker.app */,
+				0592A93B1B5573B200FEC5B1 /* Fallout_HackerTests.xctest */,
+				0592A9461B5573B200FEC5B1 /* Fallout_HackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0592A92C1B5573B200FEC5B1 /* Fallout_Hacker */ = {
+			isa = PBXGroup;
+			children = (
+				0592A92D1B5573B200FEC5B1 /* AppDelegate.swift */,
+				0592A92F1B5573B200FEC5B1 /* ViewController.swift */,
+				0592A9311B5573B200FEC5B1 /* Assets.xcassets */,
+				0592A9331B5573B200FEC5B1 /* Main.storyboard */,
+				0592A9361B5573B200FEC5B1 /* Info.plist */,
+			);
+			path = Fallout_Hacker;
+			sourceTree = "<group>";
+		};
+		0592A93E1B5573B200FEC5B1 /* Fallout_HackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0592A93F1B5573B200FEC5B1 /* Fallout_HackerTests.swift */,
+				0592A9411B5573B200FEC5B1 /* Info.plist */,
+			);
+			path = Fallout_HackerTests;
+			sourceTree = "<group>";
+		};
+		0592A9491B5573B200FEC5B1 /* Fallout_HackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0592A94A1B5573B200FEC5B1 /* Fallout_HackerUITests.swift */,
+				0592A94C1B5573B200FEC5B1 /* Info.plist */,
+			);
+			path = Fallout_HackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0592A9291B5573B200FEC5B1 /* Fallout_Hacker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0592A94F1B5573B200FEC5B1 /* Build configuration list for PBXNativeTarget "Fallout_Hacker" */;
+			buildPhases = (
+				0592A9261B5573B200FEC5B1 /* Sources */,
+				0592A9271B5573B200FEC5B1 /* Frameworks */,
+				0592A9281B5573B200FEC5B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fallout_Hacker;
+			productName = Fallout_Hacker;
+			productReference = 0592A92A1B5573B200FEC5B1 /* Fallout_Hacker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0592A93A1B5573B200FEC5B1 /* Fallout_HackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0592A9521B5573B200FEC5B1 /* Build configuration list for PBXNativeTarget "Fallout_HackerTests" */;
+			buildPhases = (
+				0592A9371B5573B200FEC5B1 /* Sources */,
+				0592A9381B5573B200FEC5B1 /* Frameworks */,
+				0592A9391B5573B200FEC5B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0592A93D1B5573B200FEC5B1 /* PBXTargetDependency */,
+			);
+			name = Fallout_HackerTests;
+			productName = Fallout_HackerTests;
+			productReference = 0592A93B1B5573B200FEC5B1 /* Fallout_HackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0592A9451B5573B200FEC5B1 /* Fallout_HackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0592A9551B5573B200FEC5B1 /* Build configuration list for PBXNativeTarget "Fallout_HackerUITests" */;
+			buildPhases = (
+				0592A9421B5573B200FEC5B1 /* Sources */,
+				0592A9431B5573B200FEC5B1 /* Frameworks */,
+				0592A9441B5573B200FEC5B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0592A9481B5573B200FEC5B1 /* PBXTargetDependency */,
+			);
+			name = Fallout_HackerUITests;
+			productName = Fallout_HackerUITests;
+			productReference = 0592A9461B5573B200FEC5B1 /* Fallout_HackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0592A9221B5573B200FEC5B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "menke dev";
+				TargetAttributes = {
+					0592A9291B5573B200FEC5B1 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0592A93A1B5573B200FEC5B1 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 0592A9291B5573B200FEC5B1;
+					};
+					0592A9451B5573B200FEC5B1 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 0592A9291B5573B200FEC5B1;
+					};
+				};
+			};
+			buildConfigurationList = 0592A9251B5573B200FEC5B1 /* Build configuration list for PBXProject "Fallout_Hacker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0592A9211B5573B200FEC5B1;
+			productRefGroup = 0592A92B1B5573B200FEC5B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0592A9291B5573B200FEC5B1 /* Fallout_Hacker */,
+				0592A93A1B5573B200FEC5B1 /* Fallout_HackerTests */,
+				0592A9451B5573B200FEC5B1 /* Fallout_HackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0592A9281B5573B200FEC5B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0592A9321B5573B200FEC5B1 /* Assets.xcassets in Resources */,
+				0592A9351B5573B200FEC5B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0592A9391B5573B200FEC5B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0592A9441B5573B200FEC5B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0592A9261B5573B200FEC5B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0592A9301B5573B200FEC5B1 /* ViewController.swift in Sources */,
+				0592A92E1B5573B200FEC5B1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0592A9371B5573B200FEC5B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0592A9401B5573B200FEC5B1 /* Fallout_HackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0592A9421B5573B200FEC5B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0592A94B1B5573B200FEC5B1 /* Fallout_HackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0592A93D1B5573B200FEC5B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0592A9291B5573B200FEC5B1 /* Fallout_Hacker */;
+			targetProxy = 0592A93C1B5573B200FEC5B1 /* PBXContainerItemProxy */;
+		};
+		0592A9481B5573B200FEC5B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0592A9291B5573B200FEC5B1 /* Fallout_Hacker */;
+			targetProxy = 0592A9471B5573B200FEC5B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0592A9331B5573B200FEC5B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0592A9341B5573B200FEC5B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0592A94D1B5573B200FEC5B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0592A94E1B5573B200FEC5B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0592A9501B5573B200FEC5B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Fallout_Hacker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.menke-dev.Fallout-Hacker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0592A9511B5573B200FEC5B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Fallout_Hacker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.menke-dev.Fallout-Hacker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0592A9531B5573B200FEC5B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Fallout_HackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.menke-dev.Fallout-HackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fallout_Hacker.app/Contents/MacOS/Fallout_Hacker";
+			};
+			name = Debug;
+		};
+		0592A9541B5573B200FEC5B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Fallout_HackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.menke-dev.Fallout-HackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fallout_Hacker.app/Contents/MacOS/Fallout_Hacker";
+			};
+			name = Release;
+		};
+		0592A9561B5573B200FEC5B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Fallout_HackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.menke-dev.Fallout-HackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Fallout_Hacker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0592A9571B5573B200FEC5B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Fallout_HackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.menke-dev.Fallout-HackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Fallout_Hacker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0592A9251B5573B200FEC5B1 /* Build configuration list for PBXProject "Fallout_Hacker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0592A94D1B5573B200FEC5B1 /* Debug */,
+				0592A94E1B5573B200FEC5B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0592A94F1B5573B200FEC5B1 /* Build configuration list for PBXNativeTarget "Fallout_Hacker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0592A9501B5573B200FEC5B1 /* Debug */,
+				0592A9511B5573B200FEC5B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0592A9521B5573B200FEC5B1 /* Build configuration list for PBXNativeTarget "Fallout_HackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0592A9531B5573B200FEC5B1 /* Debug */,
+				0592A9541B5573B200FEC5B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0592A9551B5573B200FEC5B1 /* Build configuration list for PBXNativeTarget "Fallout_HackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0592A9561B5573B200FEC5B1 /* Debug */,
+				0592A9571B5573B200FEC5B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0592A9221B5573B200FEC5B1 /* Project object */;
+}
